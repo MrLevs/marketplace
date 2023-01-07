@@ -1,0 +1,259 @@
+.profile {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    background-image: url(../img/artist/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    &__avatar {
+        height: 120px;
+        position: absolute;
+        bottom: -50px;
+        display: inline-block;
+        border: 3px solid #2B2B2B;
+        border-radius: 24px;
+    }
+    &__img {
+        border-radius: 20px;
+        height: 100%;
+    }
+}
+.artist-info {
+    padding: 90px 0 40px 0;
+    &__titel {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info {
+        width: 49%;
+    }
+    &__name {
+        @extend %WorkSans-SemiBold;
+        font-size: 51px;
+        line-height: 110%;
+        text-transform: capitalize;
+    }
+    &__stats {
+        width: 100%;
+        margin: 30px 0;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    &__total {
+        @extend %SpaceMono-Bold;
+        font-size: 28px;
+        line-height: 140%;
+        text-transform: capitalize;
+    }
+    &__bio {
+        margin-bottom: 30px;
+    }
+    &__naming {
+        @extend %WorkSans-Regular;
+        font-size: 22px;
+        line-height: 160%;
+        text-transform: capitalize;
+    }
+    &__subtitel {
+        margin-bottom: 10px;
+        @extend %SpaceMono-Bold;
+        font-size: 22px;
+        line-height: 160%;
+        text-transform: capitalize;
+        color: #858584;
+    }
+    &__bio-text {
+        @extend %WorkSans-Regular;
+        font-size: 22px;
+        line-height: 160%;
+        text-transform: capitalize;
+    }
+    &__link {
+        display: inline-block;
+        transition: 0.3s;
+        &:hover {
+            transform: scale(0.9);
+        }
+    }
+    &__copy {
+        margin-right: 20px;
+        padding: 20px 20px 20px 50px;
+        background-color: #A259FF;
+        border: none;
+        border-radius: 20px;
+        @extend %WorkSans-SemiBold;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        color: #fff;
+        position: relative;
+        transition: 0.3s;
+        &:hover {
+            cursor: pointer;
+            transform: scale(0.9);
+        }
+        &::before {
+            content: "";
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            background-image: url(../img/artist/copy.svg);
+            top: 20px;
+            left: 20px;
+        }
+
+    }
+    &__plus {
+        padding: 18px 30px 18px 60px;
+        background-color: transparent;
+        border: 2px solid #A259FF;
+        border-radius: 20px;
+        @extend %WorkSans-SemiBold;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        color: #fff;
+        transition: 0.3s;
+        position: relative;
+        &:hover {
+            cursor: pointer;
+            transform: scale(0.9);
+        }
+        &::before {
+            content: "";
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            background-image: url(../img/artist/plus.svg);
+            top: 19px;
+            left: 30px;
+        }
+    }
+}
+.nft-card {
+    padding-top: 10px;
+    border-top: 1px solid #3B3B3B;
+    &__inner {
+        width: 100%;
+    }
+    &__buttons {
+        width: 100%;
+    }
+    &__button {
+        width: 32%;
+        padding: 15px 0;
+        background-color: transparent;
+        border: none;
+        @extend %WorkSans-SemiBold;
+        font-size: 22px;
+        line-height: 140%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #858584;
+        cursor: pointer;
+    }
+    &__number {
+        margin-left: 16px;
+        padding: 5px 10px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        @extend %SpaceMono-Regular;
+        font-size: 16px;
+        line-height: 140%;
+        color: #fff;
+    }
+    &__content {
+        padding: 80px 0;
+    }
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 30px;
+    }
+}
+.mixitup-control-active {
+    border-bottom: 2px solid #858584;
+    color: #fff;
+}
+@media (max-width: 990px) {
+    .profile {
+        margin-top: 65px;
+    }
+    .artist-info {
+        &__titel {
+            display: block;
+        }
+        &__name {
+            font-size: 38px;
+        }
+        &__buttons {
+            margin-top: 30px;
+        }
+        &__info {
+            width: 60%;
+        }
+        &__total {
+            font-size: 22px;
+        }
+        &__naming {
+            font-size: 16px;
+        }
+        &__bio-text {
+            font-size: 16px;
+        }
+    }
+    .nft-card {
+        &__button {
+            font-size: 16px;
+        }
+        &__number {
+            font-size: 12px;
+        }
+        &__content {
+            padding: 40px 0;
+        }
+        &__cards {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+@media (max-width: 770px) {
+    .nft-card {
+        &__cards {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
+@media (max-width: 575px) {
+    .profile {
+        &__avatar {
+            left: 95px;
+        }
+    }
+    .artist-info {
+        &__titel {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__copy {
+            width: 100%;
+            margin-bottom: 30px;
+            margin-right: 0;
+        }
+        &__plus {
+            width: 100%;
+        }
+        &__info {
+            width: 100%;
+        }
+    }
+    .nft-card {
+        &__number {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,153 @@
+.rankings {
+    &__inner {
+        padding: 80px 0;
+    }
+    &__titel {
+        margin-bottom: 20px;
+        @extend %WorkSans-SemiBold;
+        font-size: 51px;
+        line-height: 110%;
+        text-transform: capitalize;
+    }
+    &__subtitel {
+        margin-bottom: 80px;
+        @extend %WorkSans-Regular;
+        font-size: 22px;
+        line-height: 160%;
+    }
+    &__button {
+        width: 24%;
+    }
+    &__info {
+        margin: 40px 0 20px 0;
+        padding: 12px 30px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid #3B3B3B;
+        border-radius: 20px;
+    }
+    &__artist {
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    &__inform {
+        width: 49%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text {
+        @extend %SpaceMono-Regular;
+        font-size: 16px;
+        line-height: 140%;
+        color: #858584;
+    }
+    &__content {
+        padding: 0;
+    }
+    &__card {
+        margin-bottom: 20px;
+        padding: 12px 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__number {
+        width: 30px;
+        height: 30px;
+        background-color: #2B2B2B;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @extend %SpaceMono-Regular;
+        font-size: 16px;
+        line-height: 140%;
+        color: #858584;
+    }
+    &__avatar {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &__img {
+        margin: 0 20px;
+        border-radius: 100px;
+    }
+    &__name {
+        @extend %WorkSans-SemiBold;
+        font-size: 22px;
+        line-height: 140%;
+        text-transform: capitalize;
+    }
+    &__information {
+        width: 49%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__data {
+        @extend %SpaceMono-Regular;
+        font-size: 16px;
+        line-height: 140%;
+    }
+    &__data--green {
+        color: #00AC4F;
+    }
+}
+@media (max-width: 990px) {
+    .rankings {
+        &__inner {
+            margin-top: 65px;
+            padding: 40px 0;
+        }
+        &__titel {
+            font-size: 38px;
+        }
+        &__subtitel {
+            margin-bottom: 40px;
+            font-size: 16px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .rankings {
+        &__titel {
+            font-size: 38px;
+        }
+        &__button {
+            width: 23%;
+        }
+        &__info {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__inform {
+            width: 100%;
+        }
+        &__card {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__avatar {
+            width: 100%;
+        }
+        &__img {
+            margin: 0 5px;
+        }
+        &__name {
+            font-size: 16px;
+        }
+        &__information {
+            width: 100%;
+        }
+    }
+}

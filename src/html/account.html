@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/main.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        @@include("chunk/header.html")
+        <main class="main">
+            <section class="account">
+                <div class="account__container">
+                    <div class="account__inner">
+                        <div class="account__image">
+                            <img class="account__img" src="img/account/placeholder.jpg" alt="Image">
+                        </div>
+                        <div class="account__content">
+                            <div class="account__titel">
+                                <h2 class="account__titel-top">Create account</h2>
+                                <p class="account__text">Welcome! enter your details and start creating, collecting and selling NFTs.</p>
+                            </div>
+                            <form action="URL" class="account__form">
+                                <input class="account__input account__input--user" type="text" placeholder="Username">
+                                <input class="account__input account__input--mail" type="email" placeholder="Email Address">
+                                <input class="account__input account__input--lockkey" type="password" placeholder="Password">
+                                <input class="account__input account__input--lockkey" type="password" placeholder="Confirm Password">
+                                <button class="account__button">Create account</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        @@include("chunk/footer.html")
+    </div>
+</body>
+
+</html>

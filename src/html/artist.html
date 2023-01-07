@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/mixitup.min.js"></script>
+    <script defer src="js/main.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        @@include("chunk/header.html")
+        <main class="main">
+            <div class="profile">
+                <div class="container">
+                    <div class="profile__avatar">
+                        <img class="profile__img" src="img/artist/avatar.jpg" alt="Avatar">
+                    </div>
+                </div>
+            </div>
+            <section class="artist-info">
+                <div class="container">
+                    <div class="artist-info__content">
+                        <div class="artist-info__titel">
+                            <h2 class="artist-info__name">Animakid</h2>
+                            <div class="artist-info__buttons">
+                                <button class="artist-info__copy">0xc0E3...B79C</button>
+                                <button class="artist-info__plus">Follow</button>
+                            </div>
+                        </div>
+                        <div class="artist-info__info">
+                            <div class="artist-info__stats">
+                                <div class="artist-info__stat">
+                                    <h4 class="artist-info__total">250k+</h4>
+                                    <p class="artist-info__naming">Volume</p>
+                                </div>
+                                <div class="artist-info__stat">
+                                    <h4 class="artist-info__total">50+</h4>
+                                    <p class="artist-info__naming">NFTs Sold</p>
+                                </div>
+                                <div class="artist-info__stat">
+                                    <h4 class="artist-info__total">3000+</h4>
+                                    <p class="artist-info__naming">Followers</p>
+                                </div>
+                            </div>
+                            <div class="artist-info__bio">
+                                <h5 class="artist-info__subtitel">Bio</h5>
+                                <p class="artist-info__bio-text">The internet's friendliest designer kid.</p>
+                            </div>
+                            <div class="artist-info__web">
+                                <h5 class="artist-info__subtitel">Links</h5>
+                                <div class="artist-info__web-link">
+                                    <a class="artist-info__link" href="#">
+                                        <img class="artist-info__social" src="img/artist/social/globe.svg" alt="internet">
+                                    </a>
+                                    <a class="artist-info__link" href="#">
+                                        <img class="artist-info__social" src="img/artist/social/discord.svg" alt="Discord">
+                                    </a>
+                                    <a class="artist-info__link" href="#">
+                                        <img class="artist-info__social" src="img/artist/social/youtube.svg" alt="YouTube">
+                                    </a>
+                                    <a class="artist-info__link" href="#">
+                                        <img class="artist-info__social" src="img/artist/social/twitter.svg" alt="Twitter">
+                                    </a>
+                                    <a class="artist-info__link" href="#">
+                                        <img class="artist-info__social" src="img/artist/social/instagram.svg" alt="Instagram">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="nft-card">
+                <div class="container">
+                    <div class="nft-card__inner">
+                        <div class="nft-card__buttons">
+                            <button class="nft-card__button" data-filter=".created">Created <span class="nft-card__number">302</span></button>
+                            <button class="nft-card__button" data-filter=".owned">Owned <span class="nft-card__number">67</span></button>
+                            <button class="nft-card__button" data-filter=".collections">Collection <span class="nft-card__number">4</span></button>
+                        </div>
+                        <div class="nft-card__content">
+                            <div class="nft-card__cards mix created">
+                                <a class="link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/discover/galaxy.jpg" alt="Galaxy">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">Distant Galaxy</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/discover/life.jpg" alt="Life">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">Life On Edena</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link discover__link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/discover/astro.jpg" alt="Astro">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">AstroFiction</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/artist/card/city.jpg" alt="Galaxy">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">CryptoCity</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/artist/card/dog.jpg" alt="Life">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">ColorfulDog 0524</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link discover__link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/artist/card/cosmo.jpg" alt="Astro">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">Space Tales</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/artist/card/girl.jpg" alt="Galaxy">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">Cherry Blossom Girl 037</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/artist/card/robot.jpg" alt="Life">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">Dancing Robots 0987</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link discover__link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/artist/card/ape.jpg" alt="Astro">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">IceCream Ape</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="nft-card__cards mix owned">
+                                <a class="link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/discover/galaxy.jpg" alt="Galaxy">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">Distant Galaxy</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/discover/life.jpg" alt="Life">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">Life On Edena</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link discover__link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/discover/astro.jpg" alt="Astro">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">AstroFiction</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/artist/card/city.jpg" alt="Galaxy">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">CryptoCity</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/artist/card/dog.jpg" alt="Life">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">ColorfulDog 0524</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link discover__link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/artist/card/cosmo.jpg" alt="Astro">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">Space Tales</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/artist/card/girl.jpg" alt="Galaxy">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">Cherry Blossom Girl 037</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/artist/card/robot.jpg" alt="Life">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">Dancing Robots 0987</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link discover__link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/artist/card/ape.jpg" alt="Astro">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">IceCream Ape</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="nft-card__cards mix collections">
+                                <a class="link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/discover/galaxy.jpg" alt="Galaxy">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">Distant Galaxy</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/discover/life.jpg" alt="Life">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">Life On Edena</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link discover__link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/discover/astro.jpg" alt="Astro">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">AstroFiction</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/artist/card/city.jpg" alt="Galaxy">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">CryptoCity</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/artist/card/dog.jpg" alt="Life">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">ColorfulDog 0524</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link discover__link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/artist/card/cosmo.jpg" alt="Astro">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">Space Tales</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/artist/card/girl.jpg" alt="Galaxy">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">Cherry Blossom Girl 037</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/artist/card/robot.jpg" alt="Life">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">Dancing Robots 0987</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="link discover__link" href="nft.html">
+                                    <div class="discover__card nft-card__card">
+                                        <div class="discover__icon">
+                                            <img class="discover__img" src="img/artist/card/ape.jpg" alt="Astro">
+                                        </div>
+                                        <div class="discover__info">
+                                            <div class="info">
+                                                <h5 class="info__titel">IceCream Ape</h5>
+                                                <div class="info__artist">
+                                                    <img class="info__avatar" src="img/hero/Avatar.png" alt="Avatar">
+                                                    <span class="info__autor">Animakid</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discover__prises">
+                                            <div class="discover__prise">
+                                                <p class="discover__text">Price</p>
+                                                <p class="discover__coin">1.63 ETH</p>
+                                            </div>
+                                            <div class="discover__bid">
+                                                <p class="discover__text">Highest Bid</p>
+                                                <p class="discover__coin">0.33 wETH</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        @@include("chunk/footer.html")
+    </div>
+</body>
+
+</html>
